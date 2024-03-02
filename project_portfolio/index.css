@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgba(0, 128, 0, 0.349);
+}
+.bg{
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    background-size: cover;
+}
+nav{
+    background-color: #e7dbdb;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+a.logo{
+    font-size: 60px;
+    line-height: 100px;
+    padding: 50px;
+    text-decoration: none;
+    font-weight: 900;
+    color: #000;
+}
+.logo span{
+    color: #ff0000;
+}
+
+ul{
+    padding-top: 30px;
+    float:right;
+    display: flex;
+    list-style: none;
+    padding-right: 20px;
+    
+}
+ul li{
+    margin-left: 25px;
+    font-weight: 700;
+    font-size: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: #ff0000;
+    background-color: transparent;
+    transition: 0.1s;
+}
+ul li a:hover{
+    position: relative;
+    font-style: normal;
+    color: #000000;
+    border-bottom: 4px solid orangered;
+}
+.text{
+    position: relative;
+    height: 250px;
+    width: 500px;
+    float: left; 
+    margin:50px 60px;
+}
+.text h1{
+    line-height: 70px;
+    text-align: center;
+    font-family:'Lucida Sans Unicode', 'Lucida Grande';
+    width: 500px;
+    text-shadow: rgb(255, 0, 0) 2px 2px 2px;
+    color: #000000;
+}
+.text a{
+    text-decoration: none;
+    display: inline-block;
+    background: #ff0000a1;
+    margin:20px 200px ;
+    padding: 10px 25px;
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+.text a:hover{
+    background: #ff0000;
+    color: #000;
+}
+.image img{
+    border-radius: 15px;
+    height: 400px;
+    width: 300px;
+    border: none;
+    float:right;
+    margin: 50px 200px;
+    box-shadow: #000000 4px 6px 100px;
+    padding: 1px;
+}
+.line{
+    border: 4px solid black;
+}
+.first-contant{
+    height:500px;
+    width: 100%;
+}
+.about-contant{
+    text-align: center;
+    text-shadow: #ff0000 2px 2px 2px;
+}
+.about-contant h1{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    margin:20px;
+    border-radius: 15px;
+    font-size: 70px;  
+}
+.about-contant h2{
+    font-size: 50px;
+    line-height: 70px;
+}
+.project-contant h1{
+    text-shadow: #ff0000 2px 2px 2px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    margin:20px;
+    border-radius: 15px;
+    font-size: 70px; 
+}
+.project-contant h2{
+    text-shadow: #ff0000 2px 2px 2px;
+    text-align: center;
+    font-size: 40px;
+}
+.project-detaile h3{
+    text-shadow: #ff0000 2px 2px 2px;
+    padding: 0px 130px;
+    font-size: 50px;
+}
+.project-detaile p{
+    padding: 0px 200px;
+    font-weight: 700;
+    font-size: 25px;
+    color: #000;
+    padding-bottom: 10px;
+}
+
+.skill-contant h1{
+    text-align: center;
+    text-shadow: #ff0000 2px 2px 2px;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    margin:20px;
+    border-radius: 15px;
+    font-size: 70px; 
+}
+.skill-contant h2{
+    text-shadow: #ff0000 2px 2px 2px;
+    margin: 10px 100px;
+    font-size: 40px;
+}
+.skill-contant p{
+    margin: 20px 120px;
+    font-weight: 700;
+    font-size: 25px;
+    color: #000;
+    padding-bottom: 10px;
+}
+.contect h1{
+    text-align: center;
+    text-shadow: #ff0000 2px 2px 2px;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    margin:20px;
+    border-radius: 15px;
+    font-size: 70px;  
+}
+.contect-contant{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:20px 100px;
+}
+.card{
+    box-shadow: #000000 4px 6px 8px;
+    background-color: #ebe1e1;
+    text-align: center;
+    border: none;
+    outline: none;
+    height: 150px;
+    width: 250px;
+    border-radius: 15px;
+    margin: 20px 50px;
+}
+.card i{
+    margin: 10px 0px 20px;
+    font-size: 50px;
+    transition: 0.3s;
+}
+.card i:hover{
+    color: #0f0288;
+    font-size: 55px;
+}
+.card a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.card a:hover{
+    letter-spacing: 3px;
+}
